@@ -128,13 +128,21 @@ You can specify the path to the transcript file and the question from the comman
 ## Thought process:
 
 When I first read the questions, I decided to start with the generation as it's the base for the other two functionalities. I started to build a quick wrapper around the OpenAI API with their sdk to generate something and output it in the console.
+
 I used ollama from my local computer to save some credits. I picked model mistral-nemo(https://mistral.ai/news/mistral-nemo/) since it has multilingual support and it's about the size that I can run from my local computer. I was using `openai.chat.completions.create` to generate the result, later I found `openai.beta.chat.completions.stream` that supported both streaming the result and returning the whole response when it's done, so that the user would be able to figure out if the result is good enough to let it continue or not early on. I figured the LLM might need a complete conversation to generate a better result, so I used a GenAI to complete the example transcript provided in the question.
+
 That's when I started to notice that there is ~10 seconds delay before the api started to streaming. To make the user experience better, I added a loading spinner with `ora` package and later used in a lot of places in the project. The `ora` package brought some issues with the execcutor `ts-node` so I switched to `tsx`. After a few tests on the generating results, I added the post process to clean up the generated result to make it more like a transcript.
+
 After the generation was done, I worked on the util functions that read and write the files given the path that the user provided in the prompt. I figured a way to handle the flow so that the code can be simplified. I used the same async control flow for both reading and writing the files.
+
 Then I focused on the summarization part. I modified the system prompt a bit to ask the LLM to summarize the transcript. This one is pretty straightforward and I just need to send the response to the console.
+
 The last part was the asking questions. I researched on how to keep the conversation context so that the user can ask follow up questions. I found an example on OpenAI's forum and it's pretty straightforward. Save the assistant response, compose it with the previous conversation and the new question, and send it as message to the LLM. I guess that's also saving the time on the task where I need to persist the user's chat with the assistant. Since I already have the whole conversation, all I need to do is to just save it to the database.
+
 After I finished the main functionalities, I started to add the CLI commands with `commander` package. I moved the command files to a separate directory and added the subcommands for them. To support the command line arguments, I modified a couple of the implementation so that the read/write transcript function would be able to start with a initial value without asking in the prompt.
+
 Later I was planning on the i18n support. Initially I was thinking about supporting the system messages as well, but I figured there are prompts that ask the user to enter "yes" or "no" and it would be tricky to support that in multiple languages(especially when I don't know either French or Spanish). Then I decided to only support the transcripts and the LLM chatting. The language selected is maintained in the config so I don't need to pass it around in the functions. I implemented a simple i18n support with the text keys and the translation(by GenAI) in the `i18n` directory.
+
 Lastly, I added some unit tests for some parts of the project. I added the db access functions to support persisting the chat and the docker compose file that I found here(https://hub.docker.com/_/mongo) to support a quick test on the db access functionality.
 
 ## Results:
