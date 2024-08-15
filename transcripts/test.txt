@@ -1,0 +1,8 @@
+02:48:37 Alex (Google LLC): Hi Maya,
+02:48:40 Maya (NVIDIA Corporation): Hello Alex, how's it going?
+02:48:45 Alex (Google LLC): Good thanks! I wanted to follow up on our GPU requirement. Could we discuss increasing the number from 6000 to 9000 units this year?
+02:48:50 Maya (NVIDIA Corporation): I'll do my best, Alex. However, we're already at capacity for this year's allocated resources. Perhaps a gradual increase over two years?
+02:49:00 Alex (Google LLC): That's understandable, but we're eager to expedite our model training process. Would it be possible to negotiate a higher number initially, with a commitment from us to buy more over time as our needs grow? Something like 8000 units this year, perhaps?
+02:49:15 Maya (NVIDIA Corporation): That's an interesting proposal. I'll discuss this internally and see how we can accommodate your request while maintaining fairness across other industry partners. Could you give me until end of tomorrow to come up with a solution that works for both parties?
+02:49:30 Alex (Google LLC): Of course, Maya. We appreciate your understanding and flexibility in negotiations. Looking forward to hearing from you soon.
+02:49:35 Maya (NVIDIA Corporation): Thank you, Alex. Let's aim for mutually beneficial progress. Talk soon.

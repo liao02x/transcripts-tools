@@ -1,0 +1,40 @@
+{
+  "name": "transcripts-tools",
+  "version": "1.0.0",
+  "description": "CLI to sales transcripts utilities",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src",
+    "start": "tsx src",
+    "generate": "tsx src generate",
+    "summarize": "tsx src summarize",
+    "ask": "tsx src ask",
+    "test": "mocha 'test/**/*.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "transcripts-tools": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.17",
+    "@types/fs-extra": "^11.0.4",
+    "@types/mocha": "^10.0.7",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^12.1.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "mongoose": "^8.5.3",
+    "openai": "^4.55.5",
+    "ora": "^8.0.1"
+  }
+}

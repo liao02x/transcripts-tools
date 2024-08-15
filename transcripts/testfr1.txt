@@ -1,0 +1,6 @@
+00:00:00 Alice (giga.ai) : Salut Max,
+00:00:02 Max (intel.com) : Bonjour Alice, comment allez-vous ?
+00:00:05 Alice (giga.ai) : Je me porte bien. Cela serait-il possible pour nous d'avoir accès à 15000 unités de processeurs supplémentaires cette fois-ci ?
+00:00:06 Max (intel.com) : Malheureusement, nous ne pouvons pas offrir autant de processeurs en une seule fois. Si vous êtes d'accord avec ça, nous pouvons vous proposer un total de 7500 pour commencer.
+00:00:10 Alice (giga.ai) : Merci pour cette offre, Max. Cependant, je dois être honnête, 7500 processeurs supplémentaires ne sont pas suffisants pour soutenir nos projections. Nous sommes constamment en train de développer et d'optimiser notre algorithme, qui nécessite une puissance de calcul plus importante.
+00:00:20 Max (intel.com) : Je comprends votre besoin urgent, Alice. Je suis conscient de l'importance que ces unités peuvent avoir pour vos projets. Si cela vous convient, nous pouvons considérer une offre initiale de 7500 processeurs avec une possibilité d'augmentation à 10

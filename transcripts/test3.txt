@@ -1,0 +1,12 @@
+00:00:00 Alice (neuralink.com): Hi John, this is Alice from Neuralink.
+00:00:02 John (nvidia.com): Hello Alice, how can I assist you today?
+00:00:05 Alice (neuralink.com): Thanks for taking my call, John. We're really pushing the boundaries with our neural interface technology and we could use some additional GPU power.
+00:00:08 John (nvidia.com): Of course, Alice. What are you hoping to achieve?
+00:00:10 Alice (neuralink.com): We've been discussing increasing our current allocation of 3000 GPUs to at least 6000 to expedite our simulations and testing.
+00:00:15 John (nvidia.com): I see. However, 6000 is quite an increment from your current allotment. Let's consider stepping up to around 4500 initially. If you need more down the line, we can certainly revisit that number.
+00:00:25 Alice (neuralink.com): I understand, but given our ambitious roadmap, having those extra GPUs would make a significant difference in accelerating our development timelines. Perhaps there's some flexibility to start with 5000?
+00:00:35 John (nvidia.com): Let me consult with my team on this. We're keen to support your work at Neuralink, but we must also ensure fairness and balance across all our partners.
+00:00:40 Alice (neuralink.com): Absolutely, I appreciate that. I'll be here if you need any more information before making a decision.
+00:00:45 John (nvidia.com): Alright, thank you for your patience, Alice. I'll get back to you within the next 24 hours on this.
+00:00:50 Alice (neuralink.com): Sounds good, John. Looking forward to hearing from you soon.
+00:00:55 John (nvidia.com): Likewise. Have a great day.

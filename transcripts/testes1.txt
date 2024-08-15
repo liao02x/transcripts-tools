@@ -1,0 +1,7 @@
+00:00:00 Sam (openai.com): Buenas tardes, Maria.
+00:00:02 Maria (ibm.com): Hola Sam, ¿cómo estás? ¿En qué puedo ayudarte hoy?
+00:00:05 Sam (openai.com): Estoy bien, gracias. Quería hablar contigo sobre nuestro acuerdo de procesamiento cognitivo. Necesitamos aumentar nuestra capacidad en un 15% para poder cumplir con la demanda creciente.
+00:00:06 Maria (ibm.com): Entiendo tu solicitud Sam, pero actualmente estamos ajustados en nuestra capacidad de procesamiento cognitivo. ¿Qué te parecen un aumento del 10%?
+00:00:10 Sam (openai.com): Gracias por considerar mi solicitud, Maria. Sin embargo, ese aumento sería insuficiente para mantener el ritmo de nuestro crecimiento. ¿Hay alguna posibilidad de aumentar esa cantidad a un 12% o 15%, como originalmente solicitamos?
+00:00:20 Maria (ibm.com): Lamento no poder ofrecerte un aumento mayor en este momento, pero entiendo la importancia del crescimento de tu empresa. Te propongo lo siguiente: comenzaremos con un aumento del 10%, y dentro de seis meses reevaluaremos nuestras capacidades para considerar un posible aumento adicional.
+00:00:35 Sam (openai.com): Agradezco tu comprensión, Maria
